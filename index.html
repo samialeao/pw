@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Tintas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Salis</h1>
+            <h1>Tintas</h1>
+        </div>
+
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Contato</li></a>
+        </ul>
+
+    </header>
+
+    <main>
+        <aside>
+            <h2><span>Escolha as suas Tintas</span></h2>
+            <h2>Na Salis Tintas</h2>
+            <p>Da nossa casa pra sua casa. Mergulhe em nossos conteúdos variados sobre decoração, cores, tendências, aplicações de produtos e muito mais para se inspirar e fazer sua mundaça de um jeito facil.</p>
+            <button onclick="ver()">Vermelho</button>
+            <button onclick="pre()">Preto</button>
+            <button onclick="cin()">Cinza</button>
+            <button onclick="ros()">Rosa</button>
+            <button onclick="bra()">Branco</button>
+            <button onclick="rox()">Roxo</button>
+
+        </aside>
+
+        <article>
+            <img src="pngtree-3d-furniture-living-room-decoration-design-png-image_2781279-removebg-preview (1).png" alt="sofá">
+        </article>
+    </main>
+    <script>
+        function ver(){
+            document.querySelector('img').style.backgroundColor="red"
+        }
+        function pre(){
+            document.querySelector('img').style.backgroundColor="black"
+        }
+        function cin(){
+            document.querySelector('img').style.backgroundColor="gray"
+        }
+        function ros(){
+            document.querySelector('img').style.backgroundColor="pink"
+        }
+        function bra(){
+            document.querySelector('img').style.backgroundColor="white"
+        }
+        function rox(){
+            document.querySelector('img').style.backgroundColor="rebeccapurple"
+        }
+    </script>
+</body>
+</html>
